@@ -19,6 +19,9 @@ To use this tool to debug automation scripts or QActions on a remote system, fol
 
 1. Select *Debug > Attach to Process*, and select the process you want to debug (e.g., *SLAutomation.exe*, *SLScripting.exe*).
 
+   > [!TIP]
+   > In case of debugging an automation script, restart SLAutomation to avoid long delays.
+
 1. Select *Debug > Windows > Modules*, and sort by timestamp in descending order to find the right module.
 
    This can be tricky, because every time you upload an automation script or protocol, new assemblies are built, but the old ones remain in memory.
